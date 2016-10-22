@@ -31,13 +31,6 @@
                 "dynamodb:*"
             ],
             "Resource": "arn:aws:dynamodb:*:*:*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "route53:*"
-            ],
-            "Resource": "*"
         }
     ]
 }
