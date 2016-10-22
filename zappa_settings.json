@@ -1,0 +1,11 @@
+{
+    "dev": {
+	"delete_s3_zip":true,
+	"keep_warm": false,
+	"manage_rolexx":false,
+	"project_name": "helloworld",
+	"role_namexx": "lambdaExecRole",
+        "app_function": "helloworld.app", 
+        "s3_bucket": "zappa-atif2"
+    }
+}
