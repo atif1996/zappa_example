@@ -1,15 +1,20 @@
 
 from flask import Flask
+import json
 app = Flask(__name__)
 
 @app.route('/helloworld')
 def hello_world():
-	return '{"hello" : "world"}', 200;
+    result = dict(hello='world')
+    return json.dumps(result), 200;
 
 @app.route('/')
 def hello_root():
-	return '{"hello" : "root"}', 200;
+    result = dict(hello='root')
+    return json.dumps(result), 200;
 
 
 if __name__ == '__main__':
-	print(hello_world());
+    (message, code) = hello_world()
+    print(message)
+
