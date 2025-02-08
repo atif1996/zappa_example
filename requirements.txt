@@ -22,6 +22,6 @@ six==1.10.0
 tqdm==4.8.4
 troposphere==1.8.2
 Unidecode==0.4.19
-Werkzeug==0.11.11
+Werkzeug==3.0.6
 wsgi-request-logger==0.4.6
 zappa==0.27.1
